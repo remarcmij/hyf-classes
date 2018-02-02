@@ -20,7 +20,7 @@ Month.prototype.toString = function () {
 
 Month.prototype.toConsole = function () {
   console.log(this.toString());
-}
+};
 
 const months = [
   new Month('January', 31),
